@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(105, 158, 218);
+}
+
+
+#first {
+    color:antiquewhite;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 700px) {
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+}
