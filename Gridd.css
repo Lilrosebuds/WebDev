@@ -1,0 +1,64 @@
+body {
+    background-color: skyblue;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
+#orange {
+    background-color: rgb(255, 69, 0);
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#walterwhite {
+    background-color: beige;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+#teal {
+    background-color: rgb(6, 184, 184);
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+#grid-two {
+    height: 500px;
+    width: 700px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 125px);
+}
+
+#yellow {
+    background-color: yellow;
+    opacity: 0.5;
+    grid-column: 2 / 4;
+    grid-row: 3 / -1;
+}
+
+#red {
+    background-color: red;
+    opacity: 0.5;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+}
+
+#blue {
+    background-color: blue;
+    opacity: 0.5;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+#purple {
+    background-color: purple;
+    opacity: 0.5;
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+}
