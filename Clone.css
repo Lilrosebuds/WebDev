@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(46, 46, 46);
+    background-size: 10px 10px;
+    background-image:
+        linear-gradient(to right, rgb(100, 100, 100) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(100, 100, 100) 1px, transparent 1px);
+  }
+
+#title {
+    font-size: 40px;
+    color: white;
+}
+
+#subtitle {
+    font-size: 16px;
+    color: white;
+}
+
+#Text {
+    margin-top: 145px;
+    margin-left: 145px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#firstline {
+    display: grid;
+    height: 40px;
+    width: 1fr;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 1fr;
+}
+
+#color {
+    background-color: darkgrey;
+    opacity: 0.7;
+    grid-column: 1 / 13;
+    grid-row: 1 / 2;
+}
+
+#firstwords {
+    display: grid;
+    height: 40px;
+    width: 1fr;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 1fr;
+}
