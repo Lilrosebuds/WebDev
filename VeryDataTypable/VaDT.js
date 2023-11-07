@@ -69,9 +69,9 @@
 
     document.getElementById("title5").innerHTML = `I am graduating = ${isGraduating}`
     
-    document.getElementById("title6").innerHTML = `My name birth month is ${myName}`
+    document.getElementById("title6").innerHTML = `My birth month is ${myName}`
 
-    document.getElementById("title7").innerHTML = `My name is birth date is ${myName}`
+    document.getElementById("title7").innerHTML = `My birth date is ${myName}`
 
     document.getElementById("title8").innerHTML = `My age is ${age}`
 
