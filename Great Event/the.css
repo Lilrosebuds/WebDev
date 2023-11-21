@@ -1,0 +1,57 @@
+#color {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    margin: 60px 60px 60px 60px;
+}
+
+#wheel {
+    background-color:cornflowerblue;
+    height: 300px;
+    width: 400px;
+    margin: 60px 60px 60px 60px;
+}
+
+#theGreatDeleter {
+    background-color:coral;
+    width: 300px;
+    height: 300px;
+    margin: 60px 60px 60px 60px;
+    text-align: center;
+}
+
+#scaredFellow{
+    background-color:cyan;
+    width: 500px;
+    height: 500px;
+    margin: 60px 60px 60px 60px;
+    text-align: center;
+
+}
+
+#squash{
+    background-color:orange;
+    width: 300px;
+    height: 300px;
+    margin: 60px 60px 60px 60px;
+    text-align: center;
+
+}
+
+#sillydiv {
+    background-color:hotpink;
+    margin: 60px 60px 60px 60px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+
+}
+
+#letterHater {
+    width: 330px
+}
+
+#greeting {
+    margin: 60px 60px 60px 60px;
+
+}
