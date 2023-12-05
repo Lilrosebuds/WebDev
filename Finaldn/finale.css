@@ -1,16 +1,78 @@
 main {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 23% 12.5% 20% 16% 16% 12.5%;
-    margin: 20px 50px 75px 50px;
-    gap: 30px
+    border-radius: 5px;
+    background-color: darkgrey;
+}
+
+body {
+    font-size: x-large;
 }
 
 #black {
+    border-radius: 5px;
+    text-align: center;
+}
+
+#Italy {
     background-color: bisque;
     color: white;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     border: 1px slategrey solid;
     border-radius: 5px;
+    text-align: center;
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+#Home {
+    text-align: left;
+    grid-column: 1 / 5;
+    grid-row: 1 / 1;
+    margin-left: 200px;
+    font-size:larger;
+}
+
+#Infor {
+    text-align: center;
+    grid-column: 6 / 7;
+    grid-row: 1 / 1;
+    font-size:larger;
+}
+
+#Exper {
+    text-align: right;
+    grid-column: 10 / 10;
+    grid-row: 1 / 1;
+    margin-right: 200px;
+    font-size:larger;
+}
+
+#questions {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    background-color: white;
+}
+
+#q {
+    text-align: left;
+    grid-column: 4 / 10;
+    grid-row: 1 / 1;
+}
+
+#u {
+    text-align: left;
+    grid-column: 6 / 10;
+    grid-row: 1 / 1;
+}
+
+#textboxid {
+    height:30px;
+    font-size:14pt;
 }
