@@ -3,45 +3,48 @@
     <head>
         <title>My Website</title>
         <link rel="stylesheet" href="finale.css">
+        <meta name="charset" content="UTF-8">
+        <meta name="description" content="Home Page of Final Project">
+        <meta name="keywords" content="HTML, Home, CSS, JS">
+        <meta name="author" content="Elena Cutler">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     </head>
-    <body>
+    <body id="bodie">
         <main>
             <div id="black">
-                <h1>WELCOME TO MY WEBSITE</h1>
+                <h1 id="title">Welcome to My Website</h1>
                 <h2>Take a Little Look-see</h2>
-                <p>Everything that Mind of Theirs Can Imagine about my Experience in this Class can be Found</p>
+                <p id="greeting">Everything that Mind of Theirs Can Imagine about my Experience in this Class can be Found</p>
             </div>
             <div id="nav">
                 <a href="finale.html" id="Home">Home Page</a>
                 <a href="finale2.html" id="Infor">Info About Me</a>
-                <a href="finale3.html" id="Exper">Experience</a>
+                <a href="finale3.html" id="Exper">Game</a>
             </div>
             <div id="questions">
                 <form id="q">
                     <p>Are You Happy to Be Here?</p>
-                    <input type="radio" id="g" name="g" value="g"/>
+                    <input type="radio" id="g" name="g" value="g" placeholder="Yes"/>
                     <label for "g"> Yes</label>
                     <input type="radio" id="a" name="a" value="a"/>
                     <label for "a"> No</label>
                 </form>
                 <form id="u">
                     <p>Please Enter Your Name</p>
-                    <input type="text" id ="textboxid" placeholder="Name"/>
+                    <input type="text" id="textboxid" placeholder="Name"/>
                 </form>
                 <form id="e">
-                    <p id="p">Please Choose 2</p>
-                    <input type="checkbox" id="b" name="b" value="b"/>
+                    <p>Please Choose 2</p>
+                    <input type="checkbox" id="expenseInput" name="Name" value="Name"/>
                     <label for "b">Yes</label>
                     <input type="checkbox" id="f" name="f" value="f"/>
                     <label for "f">No</label>
                     <input type="checkbox" id="h" name="h" value="h"/>
                     <label for "h">2</label>
-                    <input type="checkbox" id="r" name="r" value="r"/>
-                    <label for "r">I Swear I Only Picked 2</label>
                 </form>
-                <form id="select">
+                <form id="choose">
+                    <p>Please Select Your Age</p>
                     <select>
-                        <p>Please Select Your Age</p>
                         <option>Choose One</option>
                         <option>0-10</option>
                         <option>11-20</option>
@@ -55,6 +58,18 @@
                         <option>91-100</option>
                     </select>
                 </form>
+                <form id="social">
+                    <p>Please Enter Your Social Security Number</p>
+                    <input type="text" id="textboxid" placeholder="Number"/>
+                </form>
+            </div>
+            <button onclick="fnafQuiz()" id="subie">Submit Le Quiz</button>
+            <p id="submitMessage"></p>
+            <div id="nav2">
+                <a href="finale.html" id="Home">Home Page</a>
+                <a href="finale2.html" id="Infor">Info About Me</a>
+                <a href="finale3.html" id="Exper">Game</a>
+                <p id="test">Please Contact Us At <u>leaveusalone.help@gmail.com</u> OR Call us at 801-111-1111</p>
             </div>
         </main>
     </body>

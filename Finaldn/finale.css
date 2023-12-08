@@ -1,6 +1,7 @@
 main {
     border-radius: 5px;
     background-color: darkgrey;
+    padding: -50px;
 }
 
 body {
@@ -40,7 +41,7 @@ body {
 
 #Infor {
     text-align: center;
-    grid-column: 6 / 7;
+    grid-column: 2 / 10;
     grid-row: 1 / 1;
     font-size:larger;
 }
@@ -55,21 +56,25 @@ body {
 
 #questions {
     display: grid;
+    color: aliceblue;
+    font-size: small;
     grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: 1fr;
-    background-color: white;
+    grid-template-rows: repeat(3, 1fr);
+    background-image: url("https://nt.global.ssl.fastly.net/binaries/content/gallery/website/national/regions/worcestershire-herefordshire/places/clent-hills/library/autumn/beech-tree-clent-hills-worcestershire-1591489.jpg");
+    background-repeat: no-repeat;
 }
 
 #q {
     text-align: left;
-    grid-column: 14 / 20;
+    grid-column: 2 / 20;
     grid-row: 1 / 1;
 }
 
 #u {
-    text-align: left;
-    grid-column: 10 / 20;
+    text-align: center;
     grid-row: 1 / 1;
+    margin-right: 50px;
+    margin-left: 20px
 }
 
 #textboxid {
@@ -79,8 +84,9 @@ body {
 
 #e {
     text-align: left;
-    grid-column: 4 / 20;
+    margin-left: -90px;
     grid-row: 1 / 1;
+    margin-right: 40px;
 }
 
 #p {
@@ -92,4 +98,118 @@ body {
 
 #g {
     margin-left: 65px;
+    margin-bottom: 400px;
 }
+
+#choose {
+    text-align: left;
+    grid-column: 8 / 30;
+    grid-row: 1 / 1;
+    margin-left: -50px;
+}
+
+#social {
+    text-align: left;
+    grid-column: 15 / 30;
+    grid-row: 1 / 1;
+    margin-left: -139px;
+}
+
+#nav2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 180px;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+#test {
+    text-align: center;
+    grid-column: 3 / 10;
+    grid-row: 180px;
+    font-size: smaller;
+}
+
+#bodie {
+    animation: opacity 15s linear 2s infinite;
+    font-size: larger;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+    }
+}
+
+#subie {
+    margin-left: 900px;
+}
+
+@media screen and (min-width: 1200px) {
+    header {
+        height: 200px;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 15px;
+        width: 75px;
+    }
+
+    aside {
+        width: 15vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        height: 50px;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 10px;
+        width: 60px;
+    }
+
+    aside {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 250vh;
+        }
+    
+    #content {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        }
+    
+    nav > div {
+        height: 50px;
+        width: 100px;
+        }
+    
+    aside {
+        width: 30vw;
+        }
+    }

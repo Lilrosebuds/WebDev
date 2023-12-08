@@ -1,0 +1,232 @@
+main {
+    border-radius: 5px;
+    background-color: darkgrey;
+    padding: -50px;
+}
+
+body {
+    font-size: x-large;
+}
+
+#black {
+    border-radius: 5px;
+    text-align: center;
+}
+
+#Italy {
+    background-color: bisque;
+    color: white;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    border: 1px slategrey solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+#Home {
+    text-align: left;
+    grid-column: 1 / 5;
+    grid-row: 1 / 1;
+    margin-left: 200px;
+    font-size:larger;
+}
+
+#Infor {
+    text-align: center;
+    grid-column: 2 / 10;
+    grid-row: 1 / 1;
+    font-size:larger;
+}
+
+#Exper {
+    text-align: right;
+    grid-column: 10 / 10;
+    grid-row: 1 / 1;
+    margin-right: 200px;
+    font-size:larger;
+}
+
+#questions {
+    display: grid;
+    color: aliceblue;
+    font-size: small;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-image: url("https://gridbyexample.com/img/inflicted.png");
+}
+
+#q {
+    text-align: left;
+    grid-column: 2 / 20;
+    grid-row: 1 / 1;
+}
+
+#u {
+    text-align: center;
+    grid-row: 1 / 1;
+    margin-right: 50px;
+    margin-left: 20px
+}
+
+#textboxid {
+    height:30px;
+    font-size:14pt;
+}
+
+#e {
+    text-align: left;
+    margin-left: -90px;
+    grid-row: 1 / 1;
+    margin-right: 40px;
+}
+
+#p {
+    text-align: left;
+    margin-left: 130px;
+    grid-column: 6 / 20;
+    grid-row: 1 / 1;
+}
+
+#g {
+    margin-left: 65px;
+}
+
+#choose {
+    text-align: left;
+    grid-column: 8 / 30;
+    grid-row: 1 / 1;
+    margin-left: -50px;
+}
+
+#social {
+    text-align: left;
+    grid-column: 15 / 30;
+    grid-row: 1 / 1;
+    margin-left: -139px;
+}
+
+#nav2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 180px;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+#test {
+    text-align: center;
+    grid-column: 3 / 10;
+    grid-row: 180px;
+    font-size: smaller;
+}
+
+#black {
+    animation: width 15s linear 2s infinite;
+}
+
+@keyframes width {
+    0% {
+        background-color: blueviolet;
+    }
+    25% {
+        background-color: orange;
+    }
+    50% {
+        background-color:  green;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+#informatuin {
+    margin-right: 300px;
+}
+
+div.container {
+    text-align: center;
+  }
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+
+ 
+@media screen and (min-width: 1200px) {
+    header {
+        height: 200px;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 15px;
+        width: 75px;
+    }
+
+    aside {
+        width: 15vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        height: 50px;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 10px;
+        width: 60px;
+    }
+
+    aside {
+        width: 25vw;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        height: 250vh;
+        }
+    
+    #content {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        }
+    
+    nav > div {
+        height: 50px;
+        width: 100px;
+        }
+    
+    aside {
+        width: 30vw;
+        }
+    }
+
